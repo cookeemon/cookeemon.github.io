@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cookeemon.github.io/static/css/main.e66d53e8.chunk.css",
+    "main.js": "/cookeemon.github.io/static/js/main.a4447746.chunk.js",
+    "main.js.map": "/cookeemon.github.io/static/js/main.a4447746.chunk.js.map",
+    "runtime-main.js": "/cookeemon.github.io/static/js/runtime-main.a0d853f5.js",
+    "runtime-main.js.map": "/cookeemon.github.io/static/js/runtime-main.a0d853f5.js.map",
+    "static/js/2.25afbb8e.chunk.js": "/cookeemon.github.io/static/js/2.25afbb8e.chunk.js",
+    "static/js/2.25afbb8e.chunk.js.map": "/cookeemon.github.io/static/js/2.25afbb8e.chunk.js.map",
+    "index.html": "/cookeemon.github.io/index.html",
+    "precache-manifest.db006121e8007a873f0f6a0e341c981b.js": "/cookeemon.github.io/precache-manifest.db006121e8007a873f0f6a0e341c981b.js",
+    "service-worker.js": "/cookeemon.github.io/service-worker.js",
+    "static/css/main.e66d53e8.chunk.css.map": "/cookeemon.github.io/static/css/main.e66d53e8.chunk.css.map",
+    "static/js/2.25afbb8e.chunk.js.LICENSE.txt": "/cookeemon.github.io/static/js/2.25afbb8e.chunk.js.LICENSE.txt",
+    "static/media/ColorChange.gif": "/cookeemon.github.io/static/media/ColorChange.5434fdf6.gif",
+    "static/media/EditButton.gif": "/cookeemon.github.io/static/media/EditButton.bfe77692.gif",
+    "static/media/Kaher.jpg": "/cookeemon.github.io/static/media/Kaher.fc96ff24.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d853f5.js",
+    "static/js/2.25afbb8e.chunk.js",
+    "static/css/main.e66d53e8.chunk.css",
+    "static/js/main.a4447746.chunk.js"
+  ]
+}

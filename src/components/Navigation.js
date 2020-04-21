@@ -11,20 +11,20 @@ class Navigation extends React.Component {
                 <Link to='/'>
                     <img src={Logo} class="myLogo" alt="LOGO!"/>
                 </Link>
-
                 <ul className="nav-links">
-                    <Link to='/about-me'>
+
+                    <Link to='/about-me' className="linksstyling">
                         <li>About Me</li>
                     </Link>
 
-                    <Link to='/projects'>
+                    <Link to='/projects' className="linksstyling">
                         <li>Projects</li>
                     </Link>
 
-                    <Link to='/contact-me'>
+                    <Link to='/contact-me' className="linksstyling">
                         <li>Contact</li>
                     </Link>
-                    
+
                 </ul>
 
             </nav>

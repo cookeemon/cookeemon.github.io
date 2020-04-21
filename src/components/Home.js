@@ -6,11 +6,11 @@ class Home extends React.Component {
         return(
             <div>
                 <div className="name">
-                    <h1>Kaher Miah
-                        (NOTE ADD SOME SORT OF ANIMATION)
-                    </h1>
+                    <h1>Kaher Miah</h1>
                 </div>
-
+                <div className="hello-welcome">
+                    <p class="hello typewriter">Hello</p>
+                </div>
                 <img src={Kaher} class="myImage" alt="ME!"/>
             </div>
 

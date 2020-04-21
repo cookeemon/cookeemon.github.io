@@ -103,6 +103,9 @@ nav{
 }
 .aboutPage h1{
   color: white;
+  background-color: lightblue;
+  width: 700px;
+  margin: 0 auto;
 }
 .aboutPage2 {
   background-color: lightblue;
@@ -192,3 +195,49 @@ nav{
 
 /* __________________________________________________________________________________________________________ */
 /* Css for contact info page*/
+
+.contactPage{
+  background-color:  rgb(51, 51, 51);
+  padding-top: 30px;
+  height: 835px;
+  font-family: 'Nixie One';
+  font-size: 30px;
+}
+
+.contactPage h1{
+  color: lightgoldenrodyellow;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(114, 72, 146);
+  width: 500px;
+}
+.contactPage p{
+  color: white;
+}
+
+.contactPage h2{
+  color: rgb(114, 72, 146);
+  position: relative;
+  margin: 0 auto;
+  background-color:  lightgoldenrodyellow;
+  width: 500px;
+  top: 40px;
+}
+
+.form{
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+/* .input[type=message] {
+  padding: 200px;
+} */
+.button{
+  position: relative;
+  top: 70px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(114, 72, 146);
+  color: white;
+}

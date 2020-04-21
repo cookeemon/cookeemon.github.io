@@ -3,27 +3,25 @@ import React from 'react';
 class Contact extends React.Component {
    
     EvtHandler() {
-        alert("Sent!");
+        alert("Message sent!");
     }
     render(){
         return(
-            <div>
+            <div className="contactPage">
                 <h1>Contact Me</h1>
                 <p>
                     Email: emonmiahprof@gmail.com
                 </p>
-                <h2>Tell Me What's On Your Mind :)</h2>
-                <form>
-                    <div>
-                        <label>Name</label>
-                        <input type='text'/>
-                        <label>Email</label>
+                <h2>Send Me Your Thoughts</h2>
+                <form className="form">
+                        <label>Name: </label>
+                        <input type='text' id="userName"/>
+                        <label>Email: </label>
                         <input type='text'/>
                         <label>Write Away!</label>
-                        <input type='text'/>
-                    </div>
+                        <input type='message' />
                 </form>
-                <button onClick={this.EvtHandler}>Submit</button>
+                <button onClick={this.EvtHandler} className="button">Submit</button>
             </div>
         )
     }

@@ -22,7 +22,7 @@ class Navigation extends React.Component {
                     </Link>
 
                     <Link to='/contact-me' className="linksstyling">
-                        <li>Contact</li>
+                        <li>Contact Info.</li>
                     </Link>
 
                 </ul>

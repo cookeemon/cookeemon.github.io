@@ -1,6 +1,8 @@
+/* General css for the entire portfolio and homepage */
+
 .App {
   text-align: center;
-  background-color: rgb(51, 50, 50);
+  background-color: rgb(0, 0, 0);
 }
 body{
   padding-top: 30px;
@@ -34,9 +36,9 @@ nav{
   font-size: 30px;
   position: relative;
   background-color: lightgray;
-  width: 16.5em;
+  width: 500px;
   margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
+
 }
 
 .myImage{
@@ -44,40 +46,6 @@ nav{
   height: 650px;
   position: relative;
   bottom: 100px;
-}
-
-.yeet{
-  font-size: 30px;
-}
-
-.project-links{
-
-}
-
-.resume-link{
-
-}
-
-.project-github-link{
-
-}
-
-.dnd-gifOne{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
-
-.dnd-gifTwo{
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
-.Dnd{
-  background: lightcoral;
 }
 
 .hello {  
@@ -121,5 +89,68 @@ nav{
   to {
         border-right-color: transparent;
   }
+}
+
+/* ____________________________________________________________________________________________________________ */
+/* Css for about page */
+
+.aboutPage{
+  background-color:  rgb(36, 36, 36);
+  padding-top: 30px;
+  height: 835px;
+  font-family: 'Nixie One';
+  font-size: 30px;
+}
+.aboutPage2 {
+  background-color: lightblue;
+  width: 700px;
+  margin: 0 auto;
+}
+.aboutPage3{
+  color: lightblue;
+}
+
+.resume-link{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  position: relative;
+  background-color: lightblue;
+  right: 12px;
+}
+.arrowImage{
+  height: 40px;
+  width: 40px;
+}
+
+.yeet{
+  font-size: 30px;
+}
+
+.project-links{
+
+}
+
+.project-github-link{
+
+}
+
+.dnd-gifOne{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.dnd-gifTwo{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.Dnd{
+  background: lightcoral;
 }
 

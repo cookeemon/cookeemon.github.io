@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this project, I used youtube, w3schools, as well as other online tutorials to help me complete it.
 
 ## Available Scripts
 

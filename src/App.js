@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './Kaher.jpg';
 import './App.css';
+import Navigation from './components/Navigation';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Dnd from './projects/Dnd'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        My name is Kaher and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/cookeemon"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation/>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about-me" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contact-me" component={Contact} />
+          <Route path="/drag-and-drop-project" component={Dnd} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
